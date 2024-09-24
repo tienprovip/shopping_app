@@ -1,0 +1,41 @@
+{
+  "name": "storefront_backend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/src/server.js\"",
+    "start": "node dist/src/server.js",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "author": "Udacity",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.9",
+    "@types/jasmine": "^3.6.3",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/pg": "^7.14.7",
+    "jasmine": "^3.6.4",
+    "jasmine-spec-reporter": "^6.0.0",
+    "jasmine-ts": "^0.3.0",
+    "sequelize-cli": "^6.6.2",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9"
+  }
+}
